@@ -32,9 +32,16 @@ $ pipenv run streamlit run app.py
 ```
 
 
-Activate the virtual shell env
+Activate the virtual shell env if you want to run notebook
 ```
 $ pipenv shell
 $ python --version
 
+```
+
+Some random commands existed before
+```
+python -m venv cnn
+python -m ipykernel install --name=cnn
+.\cnn\Scripts\activate
 ```
