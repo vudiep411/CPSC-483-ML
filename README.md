@@ -18,6 +18,13 @@ Install all dependencies
 $ pipenv install
 
 ```
+Run the app
+
+```
+$ pipenv run streamlit run app.py
+```
+
+
 Activate the virtual shell env
 ```
 $ pipenv shell
