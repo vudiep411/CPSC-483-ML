@@ -5,9 +5,11 @@ import PIL.Image
 import numpy as np
 import matplotlib.pyplot as plt
 from streamlit_lottie import st_lottie
+import os
 
 # --- MODEL LOADING ---
-model = tf.keras.models.load_model('model2.h5')
+model_path = os.path.abspath('model2.h5')
+model = tf.keras.models.load_model(model_path)
 
 lesion_type_dict = {
     0 : 'Actinic keratoses',
