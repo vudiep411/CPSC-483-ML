@@ -1,5 +1,13 @@
 # CPSC-483-ML
-## Requirements
+## Model architecture (CNN)
+Check out `CNN.ipynb` for the training code.
+
+## Accuracy
+~77%
+
+<img src="https://firebasestorage.googleapis.com/v0/b/chatapp-be9bd.appspot.com/o/acc.png?alt=media&token=625fce44-1eef-4288-9a31-a79242e0e432"/>
+
+## Requirements for UI
 Install Python 3.10
 
 Install pipenv
@@ -45,3 +53,6 @@ python -m venv cnn
 python -m ipykernel install --name=cnn
 .\cnn\Scripts\activate
 ```
+
+
+
